@@ -1,0 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Andrew
+ * Date: 3/27/18
+ * Time: 10:42 PM
+ */
+require '../lib/site.inc.php';
+
+$controller = new Felis\UserController($site, $user, $_POST);
+header("location: " . $controller->getRedirect());

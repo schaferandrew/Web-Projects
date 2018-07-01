@@ -1,0 +1,68 @@
+body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}    
+* {
+    font-family: "Times New Roman", serif
+}
+body{
+    background-color: #0D360E
+}
+h1, h2, header, footer{
+    font-family: "Arial", sans-serif;
+}
+header, footer {
+    color: white;
+}
+header {
+    background-color: #155A16;
+    margin: 0 3em .5em 3em;
+}
+footer {
+    background-color: #155A16;
+    margin: 0 48px 0 48px;
+}
+h1{
+    font-size: 2em;
+    margin-top: 0;
+    padding: 0 0 0 8px;
+}
+.socialmedia{
+    background-color: #9FAAB0;
+}
+nav {
+    background-color: #1D7E1E;
+}
+article {
+    background-color: white;
+}
+header p{
+    padding: 8px;
+}
+a:link{
+    color: #47B3D7;
+}
+article{
+    margin: 0 3em .5em 3em
+}
+h2{
+    border-bottom-color: #999999;
+    font-size: 18px;
+}
+.byline{
+    font-size: 14.4px;
+    color: #777777;
+    font-style: italic;
+}
+figcaption{
+    font-size: 14.4px;
+    color: #777777;
+    font-style: italic;
+}
+figure img{
+    border-top-color: #999;
+}
+#reviews div{
+    border-bottom-style: dotted;
+    border-bottom-color: #999;
+}

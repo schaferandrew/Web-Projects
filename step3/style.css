@@ -1,0 +1,105 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+body{
+    background-image: url("cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 650px;
+    margin: 0 auto 0 auto;
+    font-family: Arial;
+}
+header{
+    background-color: #3f3622;
+    color: white;
+}
+h1{
+    font-size: 3em;
+    margin: 0 0 0 100px;
+    padding-bottom: .2em;
+}
+nav{
+    padding-left: 435px;
+}
+div.main{
+    background-color: white;
+    padding-bottom: 20px;
+}
+image{
+    border: 2px;
+}
+div.room {
+    width: 200px;
+    display: inline-block;
+}
+img{
+    border: 2px;
+}
+figure{
+    text-align: center;
+    background-color: white;
+}
+figure img {
+    border: thin solid black;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 20px;
+}
+div.status p{
+    text-align: center;
+    font-size: 1.5em;
+}
+div.rooms{
+    text-align: center;
+    margin: 20px;
+}
+div.links{
+    text-align: center;
+}
+div.links p{
+    margin: 20px;
+    font-size: 1.5em;
+}
+.emphasis{
+    font-size: 1.5em;
+    font-style: italic;
+}
+a:link{
+    color: white;
+    font-family: "Times New Roman";
+}
+a:visited{
+    color: gray;
+    font-family: "Times New Roman";
+
+}
+div.links a:link{
+    color: #685b3a;
+    font-family: Arial;
+}
+div.links a:visited{
+    color: #685b3a;
+    font-family: Arial;
+}
+div.arrow a:link{
+    color: #685b3a;
+    font-family: Arial;
+}
+div.arrow a:visited{
+    color: #685b3a;
+    font-family: Arial;
+
+}
+div.text p{
+    margin: 0 1em 2em 1em;
+    font-size: .9em;
+    font-family: "Times New Roman";
+
+}
+

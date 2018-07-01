@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Loop Land!</title>
+    <link rel="stylesheet" href="jsloop/loopland.css" />
+</head>
+<body>
+<header><h1>Welcome to Loop Land</h1></header>
+
+<div id="result"></div>
+<script>
+console.log("Hello World")
+html = "<table>"
+    // rows
+    for(var i = 1; i <= 5; i++)
+    {
+        html += "<tr>"
+      // cells
+      for(var j = 1; j <= 5; j++)
+      {
+          html += "<td>"+ (i*j) + "</td>"
+      }
+      html += "</tr>"
+    }
+    html += "</table"
+    console.log(html)
+document.getElementById("result").innerHTML = html;
+</script>
+
+<footer><p>Loop Land!</p></footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9937aa59-0fa7-4505-acaf-16b5d5636109" name="webdev-step2" url="http://webdev.cse.msu.edu/~schaf170/step2">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/schaf170/classweb/step2" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4941e7a2-a9af-407a-97c1-8f60e026a4a8" name="webdev-step3" url="http://webdev.cse.msu.edu/~schaf170/step3">
+        <fileTransfer host="arctic.cse.msu.edu" port="22" rootFolder="/user/schaf170/classweb/step3" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

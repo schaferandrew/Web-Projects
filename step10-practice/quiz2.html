@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Album!</title>
+    <link href="album/album.css" type="text/css" rel="stylesheet" />
+    <script>
+        window.onload = function() {
+            var album = {
+                title: "Black Noise",
+                artist: "FM",
+                sides: [
+                    [
+                        {   
+                            title: "Phasors on Stun",
+                            dur: "3:48"
+                        },
+                        {
+                            title: "One O'clock Tomorrow",
+                            dur: "6:04"
+                        }, 
+                        {
+                            title: "Hours",
+                            dur: "2:35"
+                        },
+                        {
+                            title: "Journey",
+                            dur: "4:40"
+                        },                        {
+                            title: "Dialing for Dharma",
+                            dur: "3:12"
+                        }
+                    ],
+                    [
+                        {
+                            title: "Slaughter in Robot Village",
+                            dur: "5:00"
+                        },
+                        {
+                            title: "Aldeberan",
+                            dur: "5:03"
+                        },                        {
+                            title: "Black Noise",
+                            dur: "10:01"
+                        }
+                    ]
+                ]
+            };
+
+            displayAlbum("result", album);
+        };
+    </script>
+</head>
+<body>
+<div id="result"></div>
+</body>
+</html>

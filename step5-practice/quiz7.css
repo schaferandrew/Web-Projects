@@ -1,0 +1,19 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: thin solid black;
+    padding: .25em;
+    text-align: center;
+}
+th {
+    padding: .5em;
+    background-color: green;
+    color: white;
+}
+th.horiz {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+}

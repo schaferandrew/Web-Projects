@@ -1,0 +1,12 @@
+h1{
+    background-color: red;
+    margin_top: 0;
+}
+input[type="submit"] {
+    width: 7em;
+}
+form{
+    margin: 0 auto;
+    width:300px;
+    text-align: center;
+}

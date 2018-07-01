@@ -1,0 +1,9 @@
+.clicker-buttons p {
+	text-align: center;
+	margin: 0.25em;
+}
+
+.clicker-buttons button {
+	width: 8em;
+	text-align:center;
+}
